@@ -4,7 +4,7 @@ angular.module('assessment').directive('product', function(mainService) {
     scope: {
       ele: '='
     },
-    templateUrl: '../views/product-tmpl.html',
+    templateUrl: 'views/product-tmpl.html',
     link: function(scope, element, attributes) {
       scope.title = scope.ele.title;
       scope.desc = scope.ele.desc;
